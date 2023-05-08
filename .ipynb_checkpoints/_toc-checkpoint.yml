@@ -3,22 +3,10 @@
 
 format: jb-book
 root: index
-parts:
-  - caption: LLM
-    chapters:
-    - file: book/markdown
-  - caption: LANGCHAIN
-    chapters:
-    - file: book/notebooks
-  - caption: STABLE-DIFFUSION
-    chapters:
-    - file: book/bibliography
-
-# - part: Langchain
-#   chapters:
-#     - file: book/markdown
-#     - file: book/notebooks
-#     - file: book/bibliography
+chapters:
+  - file: book/markdown
+  - file: book/notebooks
+  - file: book/bibliography
 
 # Or you organize the TOC by parts
 
